@@ -19,10 +19,10 @@ Ponieważ zbudowanie fajnego projektu to jedna sprawa a dostanie zadowalającej 
 <h2> Plan działania </h2>
 <ol>
  <li>
-  ✅ Zdecydowanie się na podstawowe części (silniki, sensory, wstępna obudowa).
+  ☑ Zdecydowanie się na podstawowe części (silniki, sensory, wstępna obudowa).
  </li>
  <li>
-  ⛶ Zbudowanie pierwszego modelu póki co sytemy A i B nie są rozróżnialne, ponieważ są podłączone do płytki Arduino.
+  ▢ Zbudowanie pierwszego modelu póki co sytemy A i B nie są rozróżnialne, ponieważ są podłączone do płytki Arduino.
  </li>
  <li>
   ⛶ Podłączenie laptopa, żeby każdy z nas mógł się łączyć z arduino i wgrywać swoją wersję projektu.
