@@ -16,7 +16,7 @@ System A musi działać tylko na podstawie jednej danej wejściowej która będz
  
 Ponieważ zbudowanie fajnego projektu to jedna sprawa a dostanie zadowalającej oceny to druga (A każdy może mieć inne priorytety) poniżej przedstawiam plan działania.
 
-Plan działania <br>
+<h2> Plan działania </h2>
 <ol>
  <li>
   DONE Zdecydowanie się na podstawowe części (silniki, sensory, wstępna obudowa).
