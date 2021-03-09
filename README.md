@@ -19,15 +19,33 @@ Ponieważ zbudowanie fajnego projektu to jedna sprawa a dostanie zadowalającej 
 Plan działania <br>
 <ol>
  <li>
-DONE 1. Zdecydowanie się na podstawowe części (silniki, sensory, wstępna obudowa). <br>
+  DONE Zdecydowanie się na podstawowe części (silniki, sensory, wstępna obudowa).
+ </li>
+ <li>
+  Zbudowanie pierwszego modelu póki co sytemy A i B nie są rozróżnialne, ponieważ są podłączone do płytki Arduino.
+ </li>
+ <li>
+  Podłączenie laptopa, żeby każdy z nas mógł się łączyć z arduino i wgrywać swoją wersję projektu.
+ </li>
+ <li>
+  Burza mózgów w jaki sposób nasz robocik będzie swoje miejsce wyznaczał. (Jak szybko się ma poruszać, oraz na jakiej zasadzie ograniczać pole skanowania).
+ </li>
+ <li>
+  Na początku projektujemy system w języku wyższego poziomu niż assembler. Będzie to jakiś język podobny do C na którym domyślnie chodzi arduino. Staramy się zbudować program który po prostu będzie dobrze działać.
+ </li>
+ <li>
+  Postaramy się wycisnąć z Arduino co się da, tak żeby nasz system działał na tyle sprawnie na ile się da.
+ </li>
+ <li>
+  (w ostateczności opcjonalny krok) Gdy będziemy zadowoleni z naszego stworzenia zaczynamy pracować nad protokołem połączenia tych dwóch systemów. Myślę, że najlepiej jeżeli będziemy cyfrowo komunikować się z Systemem A. Będziemy starali się rozdzielić System A od Systemu B. Być może wykorzystamy do tego drugie arduino. Chodzi tutaj o to żeby możliwe było później podłączenie komputera/tabletu/ogólnie urządzenia z wifi/4G, które będzie sobie liczyło samemu jak dobry jest sygnał i przekazywało sygnał w naszej ustandaryzowanej skali (patrz wyżej). Gdy to osiągniemy będziemy mogli podłączyć jakikolwiek system do naszego robocika i optymalizować cokolwiek chcemy.
  </li>
 </ol>
-2. Zbudowanie pierwszego modelu póki co sytemy A i B nie są rozróżnialne, ponieważ są podłączone do płytki Arduino. <br>
-3. Podłączenie laptopa, żeby każdy z nas mógł się łączyć z arduino i wgrywać swoją wersję projektu. <br>
-4. Burza mózgów w jaki sposób nasz robocik będzie swoje miejsce wyznaczał. (Jak szybko się ma poruszać, oraz na jakiej zasadzie ograniczać pole skanowania). <br>
-5. Na początku projektujemy system w języku wyższego poziomu niż assembler. Będzie to jakiś język podobny do C na którym domyślnie chodzi arduino. Staramy się zbudować program który po prostu będzie dobrze działać. <br>
-6. Postaramy się wycisnąć z Arduino co się da, tak żeby nasz system działał na tyle sprawnie na ile się da. <br>
-7. (w ostateczności opcjonalny krok) Gdy będziemy zadowoleni z naszego stworzenia zaczynamy pracować nad protokołem połączenia tych dwóch systemów. Myślę, że najlepiej jeżeli będziemy cyfrowo komunikować się z Systemem A. Będziemy starali się rozdzielić System A od Systemu B. Być może wykorzystamy do tego drugie arduino. Chodzi tutaj o to żeby możliwe było później podłączenie komputera/tabletu/ogólnie urządzenia z wifi/4G, które będzie sobie liczyło samemu jak dobry jest sygnał i przekazywało sygnał w naszej ustandaryzowanej skali (patrz wyżej). Gdy to osiągniemy będziemy mogli podłączyć jakikolwiek system do naszego robocika i optymalizować cokolwiek chcemy. <br>
+2.  <br>
+3.  <br>
+4.  <br>
+5.  <br>
+6.  <br>
+7.  <br>
 
 No i teraz staramy się w miarę możliwości i chęci iść w górę naszej tabeli ocen. <br>
 
