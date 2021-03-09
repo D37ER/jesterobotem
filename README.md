@@ -1,2 +1,2 @@
 # jesterobotem
-Idziemy w stronęświatła.
+Idziemy w stronę światła.
