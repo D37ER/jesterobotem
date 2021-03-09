@@ -1,4 +1,4 @@
-# jesterobotem
+# JESTE ROBOTEM
 Idziemy w stronę światła.
 
 Celem naszego projektu jest zbudowanie systemu komputerowego, którego będę nazywał robotem, bo kanał na discordzie tak się nazywa.
