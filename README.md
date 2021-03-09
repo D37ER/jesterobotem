@@ -1,0 +1,2 @@
+# jesterobotem
+Idziemy w stronęświatła.
