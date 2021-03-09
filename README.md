@@ -17,7 +17,11 @@ System A musi działać tylko na podstawie jednej danej wejściowej która będz
 Ponieważ zbudowanie fajnego projektu to jedna sprawa a dostanie zadowalającej oceny to druga (A każdy może mieć inne priorytety) poniżej przedstawiam plan działania.
 
 Plan działania <br>
+<ol>
+ <li>
 DONE 1. Zdecydowanie się na podstawowe części (silniki, sensory, wstępna obudowa). <br>
+ </li>
+</ol>
 2. Zbudowanie pierwszego modelu póki co sytemy A i B nie są rozróżnialne, ponieważ są podłączone do płytki Arduino. <br>
 3. Podłączenie laptopa, żeby każdy z nas mógł się łączyć z arduino i wgrywać swoją wersję projektu. <br>
 4. Burza mózgów w jaki sposób nasz robocik będzie swoje miejsce wyznaczał. (Jak szybko się ma poruszać, oraz na jakiej zasadzie ograniczać pole skanowania). <br>
