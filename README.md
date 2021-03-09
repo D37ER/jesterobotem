@@ -39,14 +39,9 @@ Plan działania <br>
  <li>
   (w ostateczności opcjonalny krok) Gdy będziemy zadowoleni z naszego stworzenia zaczynamy pracować nad protokołem połączenia tych dwóch systemów. Myślę, że najlepiej jeżeli będziemy cyfrowo komunikować się z Systemem A. Będziemy starali się rozdzielić System A od Systemu B. Być może wykorzystamy do tego drugie arduino. Chodzi tutaj o to żeby możliwe było później podłączenie komputera/tabletu/ogólnie urządzenia z wifi/4G, które będzie sobie liczyło samemu jak dobry jest sygnał i przekazywało sygnał w naszej ustandaryzowanej skali (patrz wyżej). Gdy to osiągniemy będziemy mogli podłączyć jakikolwiek system do naszego robocika i optymalizować cokolwiek chcemy.
  </li>
+ <li>
+  Zasadniczo to co czego płytkę trzeba będzie wytrawić, oraz na ile wymagany jest assembler i jak cały sprzęt ma być surowy dowiemy się na jakiś zajęciach.
+ </li>
 </ol>
-2.  <br>
-3.  <br>
-4.  <br>
-5.  <br>
-6.  <br>
-7.  <br>
 
 No i teraz staramy się w miarę możliwości i chęci iść w górę naszej tabeli ocen. <br>
-
-8. Zasadniczo to co czego płytkę trzeba będzie wytrawić, oraz na ile wymagany jest assembler i jak cały sprzęt ma być surowy dowiemy się na jakiś zajęciach. <br>
