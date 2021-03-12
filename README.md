@@ -45,3 +45,5 @@ Ponieważ zbudowanie fajnego projektu to jedna sprawa a dostanie zadowalającej 
 </ol>
 
 No i teraz staramy się w miarę możliwości i chęci iść w górę naszej tabeli ocen. <br>
+
+<img src="IMG_20210312_1444001.jpg">
