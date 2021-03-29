@@ -79,9 +79,14 @@ void loop()
             case 77://M
               ustaw_na_pocztek();
             break;
+            case 89://Y
+            wyswietl_panel_startowy1();
+            break;
             case 88://X
                 ustaw_na_pocztek();
-                delay(1000);
+                digitalWrite(dirPin, HIGH);
+                digitalWrite(dirPin2, HIGH);
+                delay(10);
                 exit(0);
                 break;
             default:
@@ -105,8 +110,13 @@ void loop()
               case 77://M
               ustaw_na_pocztek();
               break;
+              case 89://Y
+              wyswietl_panel_startowy1();
+              break;
               case 88://X
               ustaw_na_pocztek();
+              digitalWrite(dirPin, HIGH);
+              digitalWrite(dirPin2, HIGH);
               delay(10);
               exit(0);
               break;
@@ -291,7 +301,8 @@ void wyswietl_panel_startowy2() {
     Serial.println("5. [P] Dokonaj pomiaru");
     Serial.println("6. [B] Ustaw na najlepsza pozycje (z tych zmierzonych)");
     Serial.println("7. [M] Ustaw na pozycje poczatkowa");
-    Serial.println("8. [X] Zakoncz");
+    Serial.println("8. [Y] Zmien tryb");
+    Serial.println("9. [X] Zakoncz");
     Serial.println("Podaj znak wybranej opcji: ");
 }
 
@@ -300,7 +311,8 @@ void wyswietl_panel_startowy3() {
     Serial.println("1. [S] Sprawdzaj automatycznie");
     Serial.println("2. [C] Zwieksz precyzje");
     Serial.println("3. [M] Ustaw na pozycje poczatkowa");
-    Serial.println("4. [X] Zakoncz");
+    Serial.println("4. [Y] Zmien tryb");
+    Serial.println("5. [X] Zakoncz");
     Serial.println("Podaj znak wybranej opcji: ");
 }
 void wyswietl_panel_startowy1() {
