@@ -43,13 +43,13 @@ void aglorithm1(String odczytano) {
 void przesuwaj() {
   //-------------------------------------------
   for (int i = 0; i < ruch; i++) {
-    if (ile_lewo < maks_obrot) {
+    if (ile_lewo < maks_obrot_poziom) {
       lewo_o_krok();
       ile_lewo = (ile_lewo + 1) % 200;
     }
   }//0L->1L 0G
   for (int i = 0; i < ruch; i++) {
-    if (ile_gora < maks_obrot) {
+    if (ile_gora < maks_obrot_pion) {
       gora_o_krok();
       ile_gora = (ile_gora + 1) % 200;
     }
@@ -57,7 +57,7 @@ void przesuwaj() {
   delay(1000);
   pomiar();//1L 1G
   for (int i = 0; i < ruch; i++) {
-    if (ile_gora > -maks_obrot) {
+    if (ile_gora > -maks_obrot_pion) {
       dol_o_krok();
       ile_gora = (ile_gora - 1) % 200;
     }
@@ -65,7 +65,7 @@ void przesuwaj() {
   delay(1000);
   pomiar();//1L 0G
   for (int i = 0; i < ruch; i++) {
-    if (ile_gora > -maks_obrot) {
+    if (ile_gora > -maks_obrot_pion) {
       dol_o_krok();
       ile_gora = (ile_gora - 1) % 200;
     }
@@ -74,7 +74,7 @@ void przesuwaj() {
   pomiar();//1L -1G
   //-------------------------------------------
   for (int i = 0; i < ruch; i++) {
-    if (ile_lewo > -maks_obrot) {
+    if (ile_lewo > -maks_obrot_poziom) {
       prawo_o_krok();
       ile_lewo = (ile_lewo - 1) % 200;
     }
@@ -82,7 +82,7 @@ void przesuwaj() {
   delay(1000);
   pomiar();//0L -1G
   for (int i = 0; i < ruch; i++) {
-    if (ile_gora < maks_obrot) {
+    if (ile_gora < maks_obrot_pion) {
       gora_o_krok();
       ile_gora = (ile_gora + 1) % 200;
     }
@@ -90,7 +90,7 @@ void przesuwaj() {
   delay(1000);
   pomiar();//0L 0G
   for (int i = 0; i < ruch; i++) {
-    if (ile_gora < maks_obrot) {
+    if (ile_gora < maks_obrot_pion) {
       gora_o_krok();
       ile_gora = (ile_gora + 1) % 200;
     }
@@ -99,7 +99,7 @@ void przesuwaj() {
   pomiar();//0L 1G
   //-------------------------------------------
   for (int i = 0; i < ruch; i++) {
-    if (ile_lewo > -maks_obrot) {
+    if (ile_lewo > -maks_obrot_poziom) {
       prawo_o_krok();
       ile_lewo = (ile_lewo - 1) % 200;
     }
@@ -107,7 +107,7 @@ void przesuwaj() {
   delay(1000);
   pomiar();//-1L 1G
   for (int i = 0; i < ruch; i++) {
-    if (ile_gora > -maks_obrot) {
+    if (ile_gora > -maks_obrot_pion) {
       dol_o_krok();
       ile_gora = (ile_gora - 1) % 200;
     }
@@ -115,7 +115,7 @@ void przesuwaj() {
   delay(1000);
   pomiar();//-1L 0G
   for (int i = 0; i < ruch; i++) {
-    if (ile_gora > -maks_obrot) {
+    if (ile_gora > -maks_obrot_pion) {
       dol_o_krok();
       ile_gora = (ile_gora - 1) % 200;
     }

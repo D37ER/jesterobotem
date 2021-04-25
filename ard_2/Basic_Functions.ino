@@ -112,6 +112,29 @@ void pomiar() {
   delay(100);
 }
 
+int pomiar_z_wartoscia(){
+  int16_t wartosc_z_czujnika = 0;
+  for (int a = 0; a < liczba_pomiarow; a++) {
+    wartosc_z_czujnika += analogRead(0);
+  }
+  wartosc_z_czujnika = wartosc_z_czujnika / liczba_pomiarow;
+  Serial.println(wartosc_z_czujnika);
+  //powinny byc wartosci 0-1023
+  if (najlepsza_wartosc < wartosc_z_czujnika) {
+    najlepsza_wartosc = wartosc_z_czujnika;
+    najlepsza_pozycja_lewo = ile_lewo;
+    najlepsza_pozycja_gora = ile_gora;
+  }
+  delay(100);
+  return wartosc_z_czujnika;  
+}
+
+void zapomnij_najlepszy_pomiar(){
+  najlepsza_wartosc=0;
+  najlepsza_pozycja_lewo=0;
+  najlepsza_pozycja_gora=0;
+}
+
 void pomiar_mapa(int dol, int prawo) {
   int wartosc_z_czujnika = 0;
   for (int a = 0; a < liczba_pomiarow; a++) {
@@ -143,7 +166,7 @@ void najlepszy_pomiar_w_mapie() {
       }
     }
   }
-  najlepsza_pozycja_lewo = (ruch2 * naj_prawo - maks_obrot) * (-1);
-  najlepsza_pozycja_gora = (ruch2 * naj_dol - maks_obrot) * (-1);
+  najlepsza_pozycja_lewo = (ruch2_poziom * naj_prawo - maks_obrot_poziom) * (-1);
+  najlepsza_pozycja_gora = (ruch2_pion * naj_dol - maks_obrot_pion) * (-1);
   delay(100);
 }

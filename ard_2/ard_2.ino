@@ -7,8 +7,9 @@ const int dirPin2 = 9;
 const int ledPin = 13;      // the number of the LED pin
 const int czujnikPin = 0;
 const int liczba_pomiarow = 30;
-const int maks_obrot = 50; //bezpieczne
-const int16_t ile_pomiarow = 10;
+const int maks_obrot_poziom = 90;
+const int maks_obrot_pion = 40;
+const int16_t ile_pomiarow = 8;
 
 // Variables will change:
 int ledState = LOW;             // ledState used to set the LED
@@ -26,7 +27,8 @@ int16_t najlepsza_pozycja_lewo = 0;
 int16_t najlepsza_pozycja_gora = 0;
 int16_t najlepsza_wartosc = 0;
 int16_t ruch = 30;
-int16_t ruch2 = 2 * maks_obrot / ile_pomiarow;
+int16_t ruch2_poziom = 2 * maks_obrot_poziom / ile_pomiarow;
+int16_t ruch2_pion = 2 * maks_obrot_pion / ile_pomiarow;
 int16_t pomiary[ile_pomiarow][ile_pomiarow];
 
 
@@ -56,7 +58,7 @@ void loop()
   if (tryb_pracy == 1) {//automatyczny Marty
     aglorithm1(odczytano);
   }
-  else if (tryb_pracy == 1) { //manualny
+  else if (tryb_pracy == 2) { //manualny
     manual(odczytano);
   }
   else if (tryb_pracy == 3) {
